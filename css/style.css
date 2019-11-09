@@ -58,7 +58,7 @@ nav{
 }
 
 footer{
-  background-color: gray;
+  background-color: black;
   color: white;
   grid-column: 1 / -1;
   grid-row: 7 / auto;
@@ -91,8 +91,8 @@ footer{
           animation-name: logo-wiggle;
   -webkit-animation-duration: 5s;
           animation-duration: 5s;
-  -webkit-animation-iteration-count: 3;
-          animation-iteration-count: 3;
+  -webkit-animation-iteration-count: 2;
+          animation-iteration-count: 2;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
 }

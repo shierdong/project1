@@ -219,3 +219,10 @@ footer{
   }
 
 }
+
+@media screen and (prefers-reduced-motion: reduce){
+  html{
+      scroll-behavior: auto;
+      -webkit-animation: none /* Removes scroll animation */
+  }
+}
